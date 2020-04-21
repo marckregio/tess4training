@@ -1,3 +1,11 @@
+# pre-requisites
+* setup environment variable 
+  ``` export TESSDATA_PREFIX=/opt/docukit/resources/tessdata ```
+* install tesseract
+  ``` sudo apt install libtesseract-dev ```
+* use best tessdata for training
+  ``` ~/tesseract/tessdata/best/ ```
+
 # tess4training
 LSTM Training Tutorial for Tesseract 4
 
